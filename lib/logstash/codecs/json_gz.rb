@@ -23,7 +23,7 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
 
     begin
       yield LogStash::Event.new(LogStash::Json.load(json_data)) if json_data
-    rescue JSON::ParserError => e
+    rescue LogStash::Json::ParserError => e
       @logger.info('JSON parse failure. Falling back to plain-text', :error => e, :data => json_data)
       yield LogStash::Event.new('message' => json_data)
     end
