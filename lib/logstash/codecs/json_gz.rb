@@ -9,7 +9,7 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
   def register
     require 'zlib'
     require 'stringio'
-  end
+  end # def register
 
   def decode(data)
     begin
