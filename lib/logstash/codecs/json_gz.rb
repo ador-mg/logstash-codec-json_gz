@@ -1,5 +1,7 @@
 # encoding: utf-8
-require 'logstash/codecs/base'
+require "logstash/codecs/base"
+require "logstash/json"
+require "logstash/event"
 
 class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
   config_name 'json_gz'
