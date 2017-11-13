@@ -15,7 +15,9 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
 
   def decode(data)
     begin
-      json_data = Zlib::GzipReader.new(StringIO.new(data)) { |f| f.read }
+      rawdata = StringIO.new(data);
+      @logger.info('LogStash::Codecs::JsonGz: got data: ', :data => rawdata)
+      json_data = Zlib::GzipReader.new(rawdata) { |f| f.read }
     rescue Zlib::GzipFile::Error => e
       @logger.info('Gzip failure, probably not zipped', :error => e, :data => json_data)
       json_data = data
