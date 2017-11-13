@@ -23,6 +23,8 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
       json_data = data
     end
 
+    @logger.info('LogStash::Codecs::JsonGz: after zipping part. ', :data => json_data)
+
     begin
       yield LogStash::Event.new(LogStash::Json.load(json_data)) if json_data
     rescue LogStash::Json::ParserError => e
