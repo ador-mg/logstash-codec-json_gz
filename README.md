@@ -1,4 +1,4 @@
-# Logstash Plugin
+# JsonGz Logstash Plugin
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
@@ -17,7 +17,7 @@ Need help? Try #logstash on freenode IRC or the https://discuss.elastic.co/c/log
 
 ## Developing
 
-### 1. Plugin Developement and Testing
+### 1. Plugin Development and Testing
 
 #### Code
 - To get started, you'll need JRuby with the Bundler gem installed.

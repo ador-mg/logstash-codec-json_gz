@@ -2,12 +2,12 @@ Gem::Specification.new do |s|
 
   s.name          = 'logstash-codec-json_gz'
   s.version       = '0.1.0'
-  s.licenses        = ['Apache License (2.0)']
-  s.summary       = 'TODO: Write a short summary, because Rubygems requires one.'
-  s.description   = 'TODO: Write a longer description or delete this line.'
-  s.homepage      = 'TODO: Put your plugin''s website or public repo URL here.'
-  s.authors       = ['']
-  s.email         = ''
+  s.licenses        = ['Apache-2.0']
+  s.summary       = 'Handle gzipped json input for logstash.'
+  s.description   = 'This logstash codec reads gzipped json data from the input and on faiure falls back to the plain codec'
+  s.homepage      = 'https://github.com/ador-mg/logstash-codec-json_gz'
+  s.authors       = ['Antonis Mygiakis']
+  s.email         = 'a.migiakis@clmsuk.com'
   s.require_paths = ['lib']
 
   # Files
