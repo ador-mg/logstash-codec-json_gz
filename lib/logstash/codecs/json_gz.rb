@@ -17,7 +17,8 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
     begin
       rawdata = StringIO.new(data);
       @logger.info('LogStash::Codecs::JsonGz: got data: ', :data => rawdata)
-      json_data = Zlib::GzipReader.new(rawdata) { |f| f.read }
+      gz = Zlib::GzipReader.new(rawdata)
+      json_data = gz.read
     rescue Zlib::GzipFile::Error => e
       @logger.info('Gzip failure, probably not zipped', :error => e, :data => data)
       json_data = data
@@ -25,7 +26,7 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
 
     begin
       @logger.info('LogStash::Codecs::JsonGz: after zipping part. ', :data => json_data)
-      
+
       yield LogStash::Event.new(LogStash::Json.load(json_data)) if json_data
     rescue LogStash::Json::ParserError => e
       @logger.info('LogStash::Json parse failure. Falling back to plain-text', :error => e, :data => json_data)
