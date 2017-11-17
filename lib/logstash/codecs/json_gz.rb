@@ -27,10 +27,10 @@ class LogStash::Codecs::JsonGz < LogStash::Codecs::Base
     begin
       @logger.info('LogStash::Codecs::JsonGz: after zipping part. ', :data => json_data)
 
-      yield LogStash::Event.new('message' => LogStash::Json.load(json_data)) if json_data
+      yield LogStash::Event.new(LogStash::Json.load(json_data)) if json_data
     rescue LogStash::Json::ParserError => e
       @logger.info('LogStash::Json parse failure. Falling back to plain-text', :error => e, :data => json_data)
-      yield LogStash::Event.new('message' => json_data)
+      yield LogStash::Event.new(json_data)
     end
   end # def decode
 
