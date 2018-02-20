@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name          = 'logstash-codec-json_gz'
-  s.version       = '0.1.0'
+  s.version       = '0.1.5'
   s.licenses        = ['Apache-2.0']
   s.summary       = 'Handle gzipped json input for logstash.'
   s.description   = 'This logstash codec reads gzipped json data from the input and on faiure falls back to the plain codec'

@@ -1,0 +1,312 @@
+
+
+Fri Nov 17 12:19:43 2017
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.4.0-98-generic (#121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017) x86_64
+Compiler: GCC 5.3
+ext2fs lib: 1.42.13, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 214 GB / 200 GiB - CHS 26108 255 63, sector size=512 - Msft Virtual Disk, FW:1.0
+Disk /dev/sdb - 30 GB / 28 GiB - CHS 3655 255 63, sector size=512 - Msft Virtual Disk, FW:1.0
+
+Partition table type (auto): Intel
+Disk /dev/sda - 214 GB / 200 GiB - Msft Virtual Disk
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=85 sector=55
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+
+
+dir_partition inode=2
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 .
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 ..
+      11 drwx------     0      0     16384  8-May-2017 20:59 lost+found
+      12 drwxr-xr-x     0      0     12288  9-Nov-2017 12:57 bin
+     181 drwxr-xr-x     0      0      4096 13-Nov-2017 09:34 boot
+     193 drwxr-xr-x     0      0      4096  8-May-2017 20:49 dev
+     284 drwxr-xr-x     0      0      4096 14-Nov-2017 06:49 etc
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 home
+   10262 lrwxrwxrwx     0      0        32 31-Oct-2017 06:40 initrd.img
+    2028 drwxr-xr-x     0      0      4096 13-Nov-2017 09:31 lib
+    4203 drwxr-xr-x     0      0      4096 20-Jun-2017 06:30 lib64
+    4205 drwxr-xr-x     0      0      4096  8-May-2017 20:44 media
+    4206 drwxr-xr-x     0      0      4096  8-May-2017 20:44 mnt
+    4207 drwxr-xr-x     0      0      4096 15-May-2017 12:16 opt
+    4208 drwxr-xr-x     0      0      4096 12-Apr-2016 20:14 proc
+    4209 drwx------     0      0      4096 30-Oct-2017 15:19 root
+    4212 drwxr-xr-x     0      0      4096  9-May-2017 01:06 run
+    4215 drwxr-xr-x     0      0     12288  9-Nov-2017 12:57 sbin
+    4440 drwxr-xr-x     0      0      4096 19-Apr-2017 15:24 snap
+    4441 drwxr-xr-x     0      0      4096  8-May-2017 20:44 srv
+    4442 drwxr-xr-x     0      0      4096  5-Feb-2016 09:48 sys
+    4443 drwxrwxrwt     0      0     12288 17-Nov-2017 12:35 tmp
+    4444 drwxr-xr-x     0      0      4096  8-May-2017 20:44 usr
+   55161 drwxr-xr-x     0      0      4096 15-May-2017 12:59 var
+   10263 lrwxrwxrwx     0      0        29 31-Oct-2017 06:40 vmlinuz
+   57762 -rw-------     0      0      1024 12-Oct-2017 11:33 .rnd
+X   8017 lrwxrwxrwx     0      0        29 11-Oct-2017 06:26 vmlinuz.22628
+   59633 lrwxrwxrwx     0      0        32 11-Oct-2017 06:26 initrd.img.old
+    8017 lrwxrwxrwx     0      0        29 11-Oct-2017 06:26 vmlinuz.old
+X    172 -rw-r--r--     0      0        50 15-Nov-2017 14:29 .ismount-test-file
+
+dir_partition inode=2026
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 .
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 ..
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 ador
+  264857 drwxr-xr-x  1001   1001      4096 17-Nov-2017 11:03 theofilis
+X   5989 -rw-r--r--     0      0      1642 10-Nov-2017 14:39 .theofilis.swp
+X  16254 -rw-r--r--     0      0        84 13-Nov-2017 09:28 .theofilis.swpx
+
+dir_partition inode=256001
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 .
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 ..
+  256002 -rw-r--r--  1000   1000       220 31-Aug-2015 23:27 .bash_logout
+  256003 -rw-r--r--  1000   1000       655 24-Jun-2016 15:44 .profile
+  256004 -rw-r--r--  1000   1000      3771 31-Aug-2015 23:27 .bashrc
+  256005 drwx------  1000   1000      4096 13-Nov-2017 13:05 .ssh
+  256107 drwx------  1000   1000      4096 15-May-2017 12:22 .cache
+  256299 -rw-r--r--  1000   1000         0 15-May-2017 12:37 .sudo_as_admin_successful
+  512003 drwxrwxr-x  1000   1000      4096 15-May-2017 12:50 .oracle_jre_usage
+  256242 -rw-------  1000   1000       171 17-Nov-2017 09:30 .Xauthority
+  256193 -rw-------     0      0     10897 17-Nov-2017 09:47 .viminfo
+  256844 -rw-------     0      0      1024 15-May-2017 13:15 .rnd
+  256980 -rw-r--r--     0      0  12110575 15-May-2017 15:02 logstash-plain-old.log
+  256263 -rw-------  1000   1000     34656 15-Nov-2017 14:28 .bash_history
+  534917 drwxr-xr-x     0      0      4096 16-May-2017 11:39 .m2
+  266060 -rw-rw-r--  1000   1000      1132 12-Jun-2017 10:12 core-pipeline.conf
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 my-plugins
+X 256193 -rw-------     0      0     10897 17-Nov-2017 09:47 .viminfo.tmp
+X 256197 -rw-------  1001   1001       171 17-Nov-2017 11:03 .Xauthority-l
+X 256242 -rw-------  1000   1000       171 17-Nov-2017 09:30 .Xauthority-n
+X 256986 -rw-r--r--     0      0     10317 30-May-2017 02:11 analysticsVM_mountrestorepoint.sh
+X12800366 -rw-r--r--   113    117     28190 30-Oct-2017 16:08 AnalyticsVM-20171030160005
+X12800377 -rw-r--r--     0      0    686921 31-Oct-2017 06:41 AnalyticsVM-20171030160314
+X 276590 -rw-r--r--   113    117         0 13-Nov-2017 09:15 .analysticsVM_mountrestorepoint.sh.swx
+
+dir_partition inode=1536721
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 .
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 ..
+ 1536727 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:37 logstash-codec-gzip_lines
+ 1536838 drwxrwxr-x  1000   1000      4096 13-Nov-2017 12:29 test
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 logstash-codec-json_gz
+ 1542032 drwxr-xr-x     0      0      4096 17-Nov-2017 12:17 home
+X1536808 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:43 README.org
+X1536809 -rw-rw-r--  1000   1000      1379 13-Nov-2017 11:36 encoder.py
+X1536810 -rw-rw-r--  1000   1000      1224 13-Nov-2017 11:36 start.py
+X1536811 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:36 makeload.sh
+X1536812 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:36 diff_from_prev.sh
+X1536944 -r--r--r--  1000   1000      1493 13-Nov-2017 13:08 blacklist_linux_4.4.0-92-generic.conf
+X1536945 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-93-generic.conf
+X1536946 -r--r--r--  1000   1000      1400 13-Nov-2017 13:08 blacklist_linux_4.4.0-96-generic.conf
+X1536947 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-97-generic.conf
+X1536948 -r--r--r--  1000   1000        97 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536949 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536950 -r--r--r--  1000   1000        50 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536951 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+
+dir_partition inode=1536814
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 .
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 ..
+ 1536817 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:02 .git
+ 1538312 -rw-rw-r--  1000   1000        27 13-Nov-2017 13:08 .gitignore
+ 1538313 -rw-rw-r--  1000   1000        63 13-Nov-2017 13:08 CHANGELOG.md
+ 1538314 -rw-rw-r--  1000   1000       425 13-Nov-2017 13:08 CONTRIBUTORS
+ 1538315 -rw-rw-r--  1000   1000       118 13-Nov-2017 13:08 DEVELOPER.md
+ 1538316 -rw-rw-r--  1000   1000       389 13-Nov-2017 13:08 Gemfile
+ 1538317 -rw-rw-r--  1000   1000       524 13-Nov-2017 13:08 LICENSE
+ 1538318 -rw-rw-r--  1000   1000      3033 13-Nov-2017 13:12 README.md
+ 1538319 -rw-rw-r--  1000   1000        86 13-Nov-2017 13:08 Rakefile
+ 1538320 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 lib
+ 1539410 -rw-rw-r--  1000   1000      1050 13-Nov-2017 15:58 logstash-codec-json_gz.gemspec
+ 1538389 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 spec
+ 1536835 -rw-rw-r--  1000   1000      7680 13-Nov-2017 15:40 logstash-codec-json_gz-0.1.4.gem
+ 1538311 -rw-rw-r--  1000   1000      8192 17-Nov-2017 11:50 logstash-codec-json_gz-0.1.5.gem
+ 1541533 -rw-rw-r--  1000   1000       378 17-Nov-2017 12:19 testdisk.log
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 home
+X1541869 -rw-r--r--   113    117        43 17-Nov-2017 12:05 .rebuild_deploy.sh.swx
+
+dir_partition inode=1541828
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 ..
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ador
+X1541829 -rw-r--r--     0      0       700 27-Jan-2016 05:13 md5sums
+
+dir_partition inode=1542009
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 my-plugins
+
+dir_partition inode=1542010
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador/my-plugins
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542012 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 logstash-codec-json_gz
+
+dir_partition inode=1542012
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador/my-plugins/logstash-codec-json_gz
+ 1542012 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542013 -rw-r--r--     0      0        43 17-Nov-2017 12:05 .rebuild_deploy.sh.swx
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador/my-plugins
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542012 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 logstash-codec-json_gz
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 my-plugins
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 ..
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ador
+X1541829 -rw-r--r--     0      0       700 27-Jan-2016 05:13 md5sums
+
+dir_partition inode=1542009
+ 1 * Linux                    0  32 33 26108  84 55  419428319 [cloudimg-rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 214 GB / 199 GiB
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home/ador
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ..
+ 1542010 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 my-plugins
+Directory /home/ador/my-plugins/logstash-codec-json_gz/home
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 .
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 ..
+ 1542009 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 ador
+X1541829 -rw-r--r--     0      0       700 27-Jan-2016 05:13 md5sums
+Directory /home/ador/my-plugins/logstash-codec-json_gz
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 .
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 ..
+ 1536817 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:02 .git
+ 1538312 -rw-rw-r--  1000   1000        27 13-Nov-2017 13:08 .gitignore
+ 1538313 -rw-rw-r--  1000   1000        63 13-Nov-2017 13:08 CHANGELOG.md
+ 1538314 -rw-rw-r--  1000   1000       425 13-Nov-2017 13:08 CONTRIBUTORS
+ 1538315 -rw-rw-r--  1000   1000       118 13-Nov-2017 13:08 DEVELOPER.md
+ 1538316 -rw-rw-r--  1000   1000       389 13-Nov-2017 13:08 Gemfile
+ 1538317 -rw-rw-r--  1000   1000       524 13-Nov-2017 13:08 LICENSE
+ 1538318 -rw-rw-r--  1000   1000      3033 13-Nov-2017 13:12 README.md
+ 1538319 -rw-rw-r--  1000   1000        86 13-Nov-2017 13:08 Rakefile
+ 1538320 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 lib
+ 1539410 -rw-rw-r--  1000   1000      1050 13-Nov-2017 15:58 logstash-codec-json_gz.gemspec
+ 1538389 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 spec
+ 1536835 -rw-rw-r--  1000   1000      7680 13-Nov-2017 15:40 logstash-codec-json_gz-0.1.4.gem
+ 1538311 -rw-rw-r--  1000   1000      8192 17-Nov-2017 11:50 logstash-codec-json_gz-0.1.5.gem
+ 1541533 -rw-rw-r--  1000   1000       378 17-Nov-2017 12:19 testdisk.log
+ 1541828 drwxr-xr-x     0      0      4096 17-Nov-2017 12:15 home
+X1541869 -rw-r--r--   113    117        43 17-Nov-2017 12:05 .rebuild_deploy.sh.swx
+Directory /home/ador/my-plugins
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 .
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 ..
+ 1536727 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:37 logstash-codec-gzip_lines
+ 1536838 drwxrwxr-x  1000   1000      4096 13-Nov-2017 12:29 test
+ 1536814 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:15 logstash-codec-json_gz
+ 1542032 drwxr-xr-x     0      0      4096 17-Nov-2017 12:17 home
+X1536808 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:43 README.org
+X1536809 -rw-rw-r--  1000   1000      1379 13-Nov-2017 11:36 encoder.py
+X1536810 -rw-rw-r--  1000   1000      1224 13-Nov-2017 11:36 start.py
+X1536811 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:36 makeload.sh
+X1536812 drwxrwxr-x  1000   1000      4096 13-Nov-2017 11:36 diff_from_prev.sh
+X1536944 -r--r--r--  1000   1000      1493 13-Nov-2017 13:08 blacklist_linux_4.4.0-92-generic.conf
+X1536945 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-93-generic.conf
+X1536946 -r--r--r--  1000   1000      1400 13-Nov-2017 13:08 blacklist_linux_4.4.0-96-generic.conf
+X1536947 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-97-generic.conf
+X1536948 -r--r--r--  1000   1000        97 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536949 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536950 -r--r--r--  1000   1000        50 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+X1536951 drwxrwxr-x  1000   1000      4096 13-Nov-2017 13:08 blacklist_linux_4.4.0-98-generic.conf
+Directory /home/ador
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 .
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 ..
+  256002 -rw-r--r--  1000   1000       220 31-Aug-2015 23:27 .bash_logout
+  256003 -rw-r--r--  1000   1000       655 24-Jun-2016 15:44 .profile
+  256004 -rw-r--r--  1000   1000      3771 31-Aug-2015 23:27 .bashrc
+  256005 drwx------  1000   1000      4096 13-Nov-2017 13:05 .ssh
+  256107 drwx------  1000   1000      4096 15-May-2017 12:22 .cache
+  256299 -rw-r--r--  1000   1000         0 15-May-2017 12:37 .sudo_as_admin_successful
+  512003 drwxrwxr-x  1000   1000      4096 15-May-2017 12:50 .oracle_jre_usage
+  256242 -rw-------  1000   1000       171 17-Nov-2017 09:30 .Xauthority
+  256193 -rw-------     0      0     10897 17-Nov-2017 09:47 .viminfo
+  256844 -rw-------     0      0      1024 15-May-2017 13:15 .rnd
+  256980 -rw-r--r--     0      0  12110575 15-May-2017 15:02 logstash-plain-old.log
+  256263 -rw-------  1000   1000     34656 15-Nov-2017 14:28 .bash_history
+  534917 drwxr-xr-x     0      0      4096 16-May-2017 11:39 .m2
+  266060 -rw-rw-r--  1000   1000      1132 12-Jun-2017 10:12 core-pipeline.conf
+ 1536721 drwxrwxr-x  1000   1000      4096 17-Nov-2017 12:17 my-plugins
+X 256193 -rw-------     0      0     10897 17-Nov-2017 09:47 .viminfo.tmp
+X 256197 -rw-------  1001   1001       171 17-Nov-2017 11:03 .Xauthority-l
+X 256242 -rw-------  1000   1000       171 17-Nov-2017 09:30 .Xauthority-n
+X 256986 -rw-r--r--     0      0     10317 30-May-2017 02:11 analysticsVM_mountrestorepoint.sh
+X12800366 -rw-r--r--   113    117     28190 30-Oct-2017 16:08 AnalyticsVM-20171030160005
+X12800377 -rw-r--r--     0      0    686921 31-Oct-2017 06:41 AnalyticsVM-20171030160314
+X 276590 -rw-r--r--   113    117         0 13-Nov-2017 09:15 .analysticsVM_mountrestorepoint.sh.swx
+Directory /home
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 .
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 ..
+  256001 drwxr-xr-x  1000   1000      4096 17-Nov-2017 09:47 ador
+  264857 drwxr-xr-x  1001   1001      4096 17-Nov-2017 11:03 theofilis
+X   5989 -rw-r--r--     0      0      1642 10-Nov-2017 14:39 .theofilis.swp
+X  16254 -rw-r--r--     0      0        84 13-Nov-2017 09:28 .theofilis.swpx
+Directory /
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 .
+       2 drwxr-xr-x     0      0      4096 15-Nov-2017 14:29 ..
+      11 drwx------     0      0     16384  8-May-2017 20:59 lost+found
+      12 drwxr-xr-x     0      0     12288  9-Nov-2017 12:57 bin
+     181 drwxr-xr-x     0      0      4096 13-Nov-2017 09:34 boot
+     193 drwxr-xr-x     0      0      4096  8-May-2017 20:49 dev
+     284 drwxr-xr-x     0      0      4096 14-Nov-2017 06:49 etc
+    2026 drwxr-xr-x     0      0      4096 13-Nov-2017 09:24 home
+   10262 lrwxrwxrwx     0      0        32 31-Oct-2017 06:40 initrd.img
+    2028 drwxr-xr-x     0      0      4096 13-Nov-2017 09:31 lib
+    4203 drwxr-xr-x     0      0      4096 20-Jun-2017 06:30 lib64
+    4205 drwxr-xr-x     0      0      4096  8-May-2017 20:44 media
+    4206 drwxr-xr-x     0      0      4096  8-May-2017 20:44 mnt
+    4207 drwxr-xr-x     0      0      4096 15-May-2017 12:16 opt
+    4208 drwxr-xr-x     0      0      4096 12-Apr-2016 20:14 proc
+    4209 drwx------     0      0      4096 30-Oct-2017 15:19 root
+    4212 drwxr-xr-x     0      0      4096  9-May-2017 01:06 run
+    4215 drwxr-xr-x     0      0     12288  9-Nov-2017 12:57 sbin
+    4440 drwxr-xr-x     0      0      4096 19-Apr-2017 15:24 snap
+    4441 drwxr-xr-x     0      0      4096  8-May-2017 20:44 srv
+    4442 drwxr-xr-x     0      0      4096  5-Feb-2016 09:48 sys
+    4443 drwxrwxrwt     0      0     12288 17-Nov-2017 12:35 tmp
+    4444 drwxr-xr-x     0      0      4096  8-May-2017 20:44 usr
+   55161 drwxr-xr-x     0      0      4096 15-May-2017 12:59 var
+   10263 lrwxrwxrwx     0      0        29 31-Oct-2017 06:40 vmlinuz
+   57762 -rw-------     0      0      1024 12-Oct-2017 11:33 .rnd
+X   8017 lrwxrwxrwx     0      0        29 11-Oct-2017 06:26 vmlinuz.22628
+   59633 lrwxrwxrwx     0      0        32 11-Oct-2017 06:26 initrd.img.old
+    8017 lrwxrwxrwx     0      0        29 11-Oct-2017 06:26 vmlinuz.old
+X    172 -rw-r--r--     0      0        50 15-Nov-2017 14:29 .ismount-test-file
+
+TestDisk exited normally.
